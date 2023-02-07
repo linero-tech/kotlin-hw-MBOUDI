@@ -2,11 +2,16 @@ package lms_126
 
 fun task8(): String {
 
-    return val X = 15
-
-    when {
-        X % 3 == 0 && X % 5 == 0 -> println("FooBar")
-        X % 3 == 0 -> println("Foo")
-        X % 5 == 0 -> println("Bar")
-        else -> println("Qix")
+    return """
+        INPUT X
+        IF X * 5 AND 3
+          OUTPUT FooBar
+        IF X * 3 
+          OUTPUT Foo
+        IF X * 5
+          OUTPUT Bar
+        else 
+          OUTPUT Qix
+        
+    """
 }
