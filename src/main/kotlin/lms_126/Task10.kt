@@ -7,7 +7,7 @@ fun task10(): String {
         IF email not valid 
         OUTPUT email error
         INPUT password
-        IF password less than 6 charachter 
+        IF password less than 6 characters 
         OUTPUT password error
         ELSE
         Create the account
