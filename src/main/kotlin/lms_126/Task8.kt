@@ -12,6 +12,5 @@ fun task8(): String {
           OUTPUT Bar
         else 
           OUTPUT Qix
-        
     """
 }
