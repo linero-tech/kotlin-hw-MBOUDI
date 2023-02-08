@@ -2,8 +2,9 @@ package lms_126
 
 fun task6(): String {
 
-    return
-    for (i in 1..100) {
-        if (i % 5 == 0) {
-            println(i)
+    return """
+        INPUT numbers between 1 to 100
+        ELSE IF numbers multiples of 5 
+        OUTPUT numbers
+    """
 }
