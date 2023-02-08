@@ -2,16 +2,15 @@ package lms_126
 
 fun task5(): String {
 
-    return
-    val X = 7
+    return  """
+     X = 1 TO 7
 
-    when (X) {
-        1 -> println("Monday")
-        2 -> println("Tuesday")
-        3 -> println("Wednesday")
-        4 -> println("Thursday")
-        5 -> println("Friday")
-        6 -> println("Saturday")
-        7 -> println("Sunday")
-        else -> println("Invalid input")
+        1 -> print Monday
+        2 -> print Tuesday
+        3 -> print Wednesday
+        4 -> print Thursday
+        5 -> print Friday
+        6 -> print Saturday
+        7 -> print Sunday
+        else -> print ERROR """
 }
