@@ -2,10 +2,12 @@ package lms_126
 
 fun task4() {
 
-    return
-
-    if (X > Y)
-        print(X)
-    } else
-        print(Y)
+    return """
+        INPUT x
+        INPUT Y
+        IF X > Y
+        PRINT X
+        ELSE 
+        PRINT Y
+    """
     }
