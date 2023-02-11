@@ -8,6 +8,6 @@ fun task4() {
         IF X > Y
         PRINT X
         ELSE 
-        PRINT Y
-    """
+        PRINT Y 
+        """
     }
