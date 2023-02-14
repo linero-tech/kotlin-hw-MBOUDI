@@ -1,6 +1,6 @@
 package lms_126
 
-fun task4() {
+fun task4(): String {
 
     return """
         INPUT x
