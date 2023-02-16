@@ -1,10 +1,10 @@
 package lms_127
 
 fun task1(): String {
-    val first="Germany"
-    val second="Berlin"
-    val last="Euro"
-    val sentence = " The capital of $first is $second and its currency is $last "
+    val country="Germany"
+    val capital="Berlin"
+    val currency="Euro"
+    val sentence = " The capital of $country is $capital and its currency is $currency "
 
     return sentence
 }
