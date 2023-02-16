@@ -4,9 +4,9 @@ fun task1(): String {
     val countryName = "Germany"
     val capitalName = "Berlin"
     val currencyName = "Euro"
-    val sentence = "The capital of $countryName is $capitalName and its currency is $currencyName"
+    val result = "The capital of $countryName is $capitalName and its currency is $currencyName"
 
-    return sentence
+    return result
 }
 fun main(){
 val result = task1()
