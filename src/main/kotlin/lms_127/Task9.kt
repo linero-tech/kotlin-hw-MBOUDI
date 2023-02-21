@@ -1,6 +1,10 @@
 package lms_127
 
 fun task9(sentence: String, character: Char): Boolean {
-
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    return sentence.contains(character)
+}
+fun main (){
+    println(task9(sentence = "I code In KOTLIN", character ='i'))
+    println(task9(sentence = "I code In KOTLIN", character ='O'))
+    println(task9(sentence = "I code In KOTLIN", character ='m'))
 }
