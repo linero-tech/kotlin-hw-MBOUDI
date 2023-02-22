@@ -5,9 +5,8 @@ fun task2(): String {
     val name = "Boudi"
     val country = "Sweden"
     val month = "February"
-    val sentence = "Hello $name, you are from $country and you were born in $month"
 
-    return sentence
+    return "Hello $name, you are from $country and you were born in $month"
 
 }
 fun main () {
