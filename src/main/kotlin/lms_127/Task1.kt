@@ -1,12 +1,11 @@
 package lms_127
 
 fun task1(): String {
-    val country = "Germany"
-    val capital = "Berlin"
-    val currency = "Euro"
-    val result = "The capital of $country is $capital and its currency is $currency"
+    val countryName = "Germany"
+    val capitalName = "Berlin"
+    val currencyName = "Euro"
 
-    return result
+    return "1.Country: $countryName,2.Capital: $capitalName,3.Currency: $currencyName"
 }
 fun main(){
 val result = task1()
