@@ -5,9 +5,10 @@ fun task1(): String {
     val capitalName = "Berlin"
     val currencyName = "Euro"
 
-    return "1.Country: $countryName,2.Capital: $capitalName,3.Currency: $currencyName"
+    return "Country: $countryName\nCapital: $capitalName\nCurrency: $currencyName"
 }
-fun main(){
-val result = task1()
+
+fun main() {
+    val result = task1()
     println(result)
 }
