@@ -10,5 +10,7 @@ fun task1(): String {
 
 fun main() {
     val result = task1()
-    println(result)
+    println("1.${result.split("\n")[0]}")
+    println("2.${result.split("\n")[1]}")
+    println("3.${result.split("\n")[2]}")
 }
