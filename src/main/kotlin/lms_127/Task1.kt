@@ -1,11 +1,11 @@
 package lms_127
 
-fun task1(): String {
+fun task1() {
     val countryName = "Germany"
     val capitalName = "Berlin"
     val currencyName = "Euro"
 
-    return "Country: $countryName\nCapital: $capitalName\nCurrency: $currencyName"
+    println ("Country: $countryName\nCapital: $capitalName\nCurrency: $currencyName")
 }
 
 fun main() {
