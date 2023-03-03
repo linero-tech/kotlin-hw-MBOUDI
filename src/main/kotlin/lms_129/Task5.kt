@@ -1,6 +1,14 @@
 package lms_129
 
 fun task5(sentence: String): Int {
-
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+var result = 0
+    for (char in sentence){
+        result++
+    }
+    return result
+}
+fun main (){
+    val sentence = "My teacher is smart in Kotlin"
+    val result = task5(sentence)
+    println("the number of character in the sentence is $result")
 }
