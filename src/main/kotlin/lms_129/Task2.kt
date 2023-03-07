@@ -1,18 +1,16 @@
 package lms_129
 
 fun task2(number: Int): Boolean {
-    val number = (1..100).random()
-    var result = true
-
-    if (number <= 1){
-        result = false
-    }else {
-        for (i in 2 until number)
-            result = true
+    if (number <= 1) return false
+    for (i in 2 until number) {
+        if (number % i == 0) {
+            return false
+        }
     }
-    return result
+    return true
 }
-fun main (){
-    val result = task2(number = 75)
+
+fun main() {
+    val result = task2(75)
     println(result)
 }
